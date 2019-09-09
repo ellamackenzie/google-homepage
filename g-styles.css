@@ -144,7 +144,7 @@ a:hover {
     padding-left: 26px;
     margin-top: 6px;
     font-size: 13px;
-    color: #000;
+    color: rgb(0,0,0,0.87);
 }
 
 .about:hover {
@@ -153,11 +153,13 @@ a:hover {
     padding-left: 26px;
     margin-top: 6px;
     margin-left: 0px;
+    margin-right: -2px;
     padding-top: 0px;
     padding-bottom: 0px;
     text-decoration-line: underline;
     box-shadow: none;
     border: none;
+    opacity: 0.85;
 }
 
 .store {
@@ -167,7 +169,7 @@ a:hover {
     padding-left: 0px;
     margin-top: 6px;
     font-size: 13px;
-    color: #000;
+    color: rgb(0,0,0,0.87);
 }
 
 .store:hover {
@@ -180,6 +182,7 @@ a:hover {
     text-decoration-line: underline;
     box-shadow: none;
     border: none;
+    opacity: 0.85;
 }
 
 .avatar {
@@ -221,7 +224,7 @@ a:hover {
     padding-left: 0px;
     margin-top: 0px;
     font-size: 13px;
-    color: #000;
+    color: rgb(0,0,0,0.87);
 }
 
 .images:hover {
@@ -235,6 +238,7 @@ a:hover {
     text-decoration-line: underline;
     box-shadow: none;
     border: none;
+    opacity: 0.85;
 }
 
 .gmail {
@@ -244,7 +248,7 @@ a:hover {
     padding-left: 0px;
     margin-top: 0px;
     font-size: 13px;
-    color: #000;
+    color: rgb(0,0,0,0.87);
 }
 
 .gmail:hover {
@@ -258,6 +262,7 @@ a:hover {
     text-decoration-line: underline;
     box-shadow: none;
     border: none;
+    opacity: 0.85;
 }
 
 header {
