@@ -6,21 +6,21 @@
 
 .container .one {
     position: absolute;
-    margin-top: 10px;
+    margin-top: 0px;
     z-index: 3;
 }
 
 .container .two {
     position: absolute;
-    margin-top: 320px;
+    margin-top: 275px;
     z-index: 4;
 }
 
 .container .three {
     position: absolute;
-    margin-top: 405px;
+    margin-top: 360px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 132px 147px 1fr;
     grid-gap: 12px;
 }
 
@@ -31,7 +31,9 @@
 }
 
 .input {
-    width: 482px;
+    width: 42%;
+    max-width: 600px;
+    min-width: 500px;
     height: 44px;
     border: solid;
     border-color: #ddd;
@@ -52,7 +54,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 #query {
@@ -61,20 +63,22 @@
     margin-right: auto;
     margin-top: -37px;
     height: 34px;
-    width: 387px;
+    width: 82%;
     position: relative;
     font-family: Arial, sans-serif;
     font-size: 16px;
     border: none;
+    z-index: 2;
 }
 
 #mag {
     display: block;
-    height: 18px;
-    width: 18px;
+    height: 16px;
+    width: 16px;
     margin-left: 18px;
-    margin-top: 13px;
+    margin-top: 15px;
     margin-bottom: 10px;
+    z-index: 3;
 }
 
 #mic {
@@ -82,20 +86,20 @@
     height: 20px;
     width: 14px;
     margin-right: 19px;
-    margin-top: -29px;
+    margin-top: -27px;
     margin-bottom: 10px;
+    z-index: 3;
 }
 
 input:focus {
     outline: none;
 }
 
-/* working after this point */
-
 .bgsearch {
     height: 36px;
     width: 132px;
     display: inline-block;
+    grid-column-start: 2;
     margin-right: 0px;
     margin-left: auto;
 }
@@ -132,3 +136,231 @@ a:hover {
     height: 36px;
     width: 180px;
 }
+
+.about {
+    background: none;
+    border: none;
+    display: inline-block;
+    padding-left: 26px;
+    margin-top: 6px;
+    font-size: 13px;
+    color: #000;
+}
+
+.about:hover {
+    background: none;
+    border: none;
+    padding-left: 26px;
+    margin-top: 6px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-decoration-line: underline;
+    box-shadow: none;
+    border: none;
+}
+
+.store {
+    background: none;
+    border: none;
+    display: inline-block;
+    padding-left: 0px;
+    margin-top: 6px;
+    font-size: 13px;
+    color: #000;
+}
+
+.store:hover {
+    background: none;
+    border: none;
+    padding-left: 0px;
+    margin-top: 6px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-decoration-line: underline;
+    box-shadow: none;
+    border: none;
+}
+
+.avatar {
+    height: 30px;
+    width: 30px;
+    border: solid;
+    border-width: 1px;
+    border-color: #fff;
+    border-radius: 16px;
+    display: inline-block;
+    margin-right: 14px;
+    margin-left: 0px;
+    position: relative;
+    top: 10px;  
+    background-image: url("images/avatar.png");
+    background-size: cover;
+}
+
+
+.menu {
+    height: 18px;
+    width: 18px;
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 1px;  
+    opacity: 0.65;
+    position: relative;
+    top: 4px;
+}
+
+.menu:hover {
+    opacity: 1;
+}
+
+.images {
+    background: none;
+    border: none;
+    display: inline-block;
+    padding-left: 0px;
+    margin-top: 0px;
+    font-size: 13px;
+    color: #000;
+}
+
+.images:hover {
+    background: none;
+    border: none;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-right: -2px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-decoration-line: underline;
+    box-shadow: none;
+    border: none;
+}
+
+.gmail {
+    background: none;
+    border: none;
+    display: inline-block;
+    padding-left: 0px;
+    margin-top: 0px;
+    font-size: 13px;
+    color: #000;
+}
+
+.gmail:hover {
+    background: none;
+    border: none;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-right: -2px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-decoration-line: underline;
+    box-shadow: none;
+    border: none;
+}
+
+header {
+    width: 100%;
+    grid-template-columns: 1fr;
+}
+
+.jleft {
+    display: inline-block;
+    margin-top: -6px;
+    float: right;
+}
+
+footer {
+    grid-template: repeat(2, 41px) / 1fr;
+    display: grid;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.aus {
+    width: 100%;
+    height: 100%;
+    background-color: #f2f2f2;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #e4e4e4;
+}
+
+.ausp {
+    font-family: Arial; sans-serif;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.54);
+    padding-left: 27px;
+    margin-top: 12px;
+}
+
+.tfoot {
+    grid-row-start: 2;
+    background-color: #f2f2f2;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #e4e4e4
+}
+
+.tfootad {
+    background: none;
+    border: none;
+    display: inline-block;
+    padding-left: 27px;
+    margin-top: 6px;
+    font-size: 13px;
+    color: #5f6368;
+}
+
+.tfootad:hover {
+    background: none;
+    border: none;
+    padding-left: 27px;
+    margin-top: 6px;
+    margin-left: 0px;
+    margin-right: -2px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-decoration-line: underline;
+    box-shadow: none;
+    border: none;
+    color: #5f6368;
+    border-width: 0px;
+}
+
+.tfootnex {
+    background: none;
+    border: none;
+    display: inline-block;
+    padding-left: 12px;
+    margin-top: 6px;
+    font-size: 13px;
+    color: #5f6368;
+}
+
+.tfootnex:hover {
+    background: none;
+    border: none;
+    padding-left: 12px;
+    margin-top: 6px;
+    margin-left: 0px;
+    margin-right: -2px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-decoration-line: underline;
+    box-shadow: none;
+    border: none;
+    color: #5f6368;
+    
+}
+
+.bot {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 15px;
+}
+
