@@ -50,11 +50,11 @@
 }
 
 .image {
-    width: 500px;
+    width: 272px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
+    margin-top: 150px;
 }
 
 #query {
@@ -292,13 +292,14 @@ footer {
     border-bottom: solid;
     border-width: 1px;
     border-color: #e4e4e4;
+    margin-left: -7px;
 }
 
 .ausp {
     font-family: Arial; sans-serif;
     font-size: 15px;
     color: rgba(0, 0, 0, 0.54);
-    padding-left: 27px;
+    padding-left: 34px;
     margin-top: 12px;
 }
 
@@ -308,14 +309,15 @@ footer {
     border-top: solid;
     border-bottom: solid;
     border-width: 1px;
-    border-color: #e4e4e4
+    border-color: #e4e4e4;
+    margin-left: -7px;
 }
 
 .tfootad {
     background: none;
     border: none;
     display: inline-block;
-    padding-left: 27px;
+    padding-left: 34px;
     margin-top: 6px;
     font-size: 13px;
     color: #5f6368;
@@ -326,7 +328,7 @@ footer {
     border: none;
     padding-left: 27px;
     margin-top: 6px;
-    margin-left: 0px;
+    margin-left: 7px;
     margin-right: -2px;
     padding-top: 0px;
     padding-bottom: 0px;
